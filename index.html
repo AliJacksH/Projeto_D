@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="Index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <title>Cyber Café</title>
 </head>
+
 <body>
-    <h1>OLÁ MUNDO</h1>
-	<p>subtitulo</p>
-    <p>subs, ioioi</p>
+    <!--As divs "cabeças" para cada 
+    parte do formulário possuem class com letra maiúscula-->
+    <div class="continer">
+        <div class="header">
+            <h1 id="titulo">CYBER CAFÉ</h1> 
+             <Label for="resposta">-Gostária de um Café?</Label>
+              <input type="radio" name="resposta">Sim
+              <input type="radio" name="resposta">Não
+        </div>
+
+        <form  class="form" id="form">
+            <div class="Name">
+                <label for="name">-Qual o seu nome?</label>
+                <input type="text" placeholder="Nickname" id="username" required>
+              
+            </div>
+
+            <div class="Select">
+                <label for="select" id="select">Tipo de café</label>
+                <select name="cofftype" id="cofftype">
+                    <option value="café comum">Café comum</option>
+                    <option value="café forte">Café forte</option>
+                    <option value="café fraco">Café fraco</option>
+                </select>   
+            </div>
+
+            <div class="Checkbox">
+                <label for="extra's" id="extra's">Extra's</label>
+                <input type="checkbox" value="leite">Leite
+                <input type="checkbox" value="chocolate">Chocolate
+                <input type="checkbox" value="baunilha">Baunilha
+            </div>
+
+            <div class="btn"> 
+                <button value="submit" id="send">Pedir</button>
+
+            </div>
+        
+        </form>
+    </div>
+    
 </body>
 </html>
