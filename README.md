@@ -2,9 +2,6 @@
 
 estou modificando este arquivo
 
-estou testando o github!!! eeeeeeeeeeeeeeehhhh! \o/
-julia está tentando usar esse git
-eita eita eita \o/
 
 cabeçalho com 3 links e uma logo;
  divisão entre o cabeçalho e H1; 
