@@ -3,8 +3,13 @@
 
 
 
-cabeçalho com 3 links e uma logo;
- divisão entre o cabeçalho e H1; 
- H1, H2, botão, divisão centralizada com 4 textos embaixo.
+cabeçalho com o a tag nav com 4 links e uma logo;
+ divisão entre o cabeçalho e conteudo; 
+ conteudo : H1=titulo, H2=subtitulo, botão, imagem;
+  divisão centralizada com 4 textos embaixo.
  divisão para o rodapé;
  logo no rodapé. 
+ head=cabeçalho
+ nav=navegação
+ main=conteudo
+ footer=rodape
