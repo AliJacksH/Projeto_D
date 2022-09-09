@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doação</title>
+
+    <script>
+        function acionar () {
+  let nome =  document.getElementById("nome").value
+    
+  let mensagem =  document.getElementById("mensagem")
+
+  mensagem.innerHTML = "A doação foi agendada com sucesso, " + nome
+}
+    </script>
+    
+</head>
+<body>
+
+    <header>
+        <h1>Agendamento de doação de sangue</h1>
+            <p>Ensira os dados requisitados</p>
+    </header>
+    
+    <main>
+        <form action="">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" required>
+    <br>
+    <br>
+ 
+            <label for="sexo">gênero</label>
+    <br>        
+            <input type="radio" name="sexo" id="masculino">Masculino
+            <input type="radio" name="sexo" id="feminino">Femenino
+            <input type="radio" name="sexo" id="prefiroNaoDizer">Prefiro não dizer
+
+    <br>
+    <br>        
+            <h2>Escolha dia e hora</h2>
+            <input type="datetime-local">
+        </form>
+    </main>
+    <br>
+    <br>
+
+    <button value="submit" onclick="acionar ()">Concluir</button>
+       <h2 id="mensagem"></h2>
+    
+    
+</body>
+</html>

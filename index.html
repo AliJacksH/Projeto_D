@@ -1,59 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
-
-    <title>Cyber Café</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Seja doador</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <!--As divs "cabeças" para cada 
-    parte do formulário possuem class com letra maiúscula-->
-    <div class="continer">
-        <div class="header">
-            <h1 id="titulo">CYBER CAFÉ</h1> 
-             <Label for="resposta">-Gostária de um Café?</Label>
-              <input type="radio" name="resposta">Sim
-              <input type="radio" name="resposta">Não
-        </div>
+<body> 
+    <header class="cabeçalho">
+        <img src="logo.png" alt="logo coração" width="80px" height="80px" id="logoCabeçalho">
+        <h1 class="titulo">#SEJA DOADOR</h1>
+         <nav>
+            <ul class="bloco">
+                <a href="" class="lista"><li>Saiba mais</li></a>
+                <a href="http://127.0.0.1:5500/index1.html" class="lista"><li>Agendar doação</li></a>
+                <a href="" class="lista"><li>Motivos para doar</li></a>
+            </ul>
+         </nav>
+    </header>
+ 
+    <main class="conteudo">
+        <section class="parteUm">
 
-        <form  class="form" id="form">
-            <div class="Name">
-                <label for="name">-Qual o seu nome?</label>
-                <input type="text" placeholder="Nickname" id="username" required>
-              
-            </div>
+            <h2>Seja UM doador de sangue e salve até QUATRO vidas</h2>
+            <p>O sangue da maioria dos brasileiros é O+. Um sangue de ótima qualidade para doação</p>
 
-            <div class="Select">
-                <label for="select" id="select">Tipo de café</label>
-                <select name="cofftype" id="cofftype">
-                    <option value="café comum">Café comum</option>
-                    <option value="café forte">Café forte</option>
-                    <option value="café fraco">Café fraco</option>
-                </select>   
-            </div>
+            <img src="doação-sangue.jpg" alt="Doadores de sangue" width="280" height="240" id="imagemDoaçao">
 
-            <div class="Checkbox">
-                <label for="extra's" id="extra's">Extra's</label>
-                <input type="checkbox" value="leite">Leite
-                <input type="checkbox" value="chocolate">Chocolate
-                <input type="checkbox" value="baunilha">Baunilha
-            </div>
+            <a href="http://127.0.0.1:5500/index1.html"><button>Quero doar</button> </a>
 
-            <div class="btn"> 
-                <button value="submit" id="send">Pedir</button>
 
-            </div>
-        
-        </form>
-    </div>
+        </section>
+
+        <section class="parteDois">
+
+            <h3>alguns beneficios</h3>
+
+            <ul>
+                <li>Menos risco de câncer</li>
+                <li>Check-up totalmente gratuito</li>
+                <li>Um merecido dia de folga</li>
+                <li>Um lanche de graça</li>
+            </ul>
+
+        </section>
+
+        <footer class="rodape">
+            <img src="logo.png" alt="logo coração" width="60px" height="60px" id="logoRodape">
+
+        </footer>
+
+    </main>
     
 </body>
 </html>
