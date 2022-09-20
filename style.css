@@ -1,0 +1,16 @@
+/*...................................................RESET DO CSS...............................................................*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  
+}
+
+/*................................................INICIO DO CSS GERAL.............................................................*/
+body{
+    background-color: cadetblue;
+}
+a{
+    color: aliceblue;
+    padding: 3%;
+}
