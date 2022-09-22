@@ -1,17 +1,18 @@
-/* RESET TODO CSS */
-* {
+/* RESET CCSS */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
 
-/* INÍCIO DO CSS GERAL */
-
-body {
-    background-color: rgb(42, 54, 54);
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #27232f 16.62%, #528e86 85.61%);
 }
 
-.conteudo {
-    background-color: rgb(87, 160, 160);
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+    padding: 24px 24px 0px 24px;
 }
