@@ -9,9 +9,43 @@
 /*................................................INICIO DO CSS GERAL.............................................................*/
 body{
     background-color: cadetblue;
-
 }
+
+.cabecalho{
+  
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 250px;
+}
+
+
+nav{
+    text-align: right;
+    
+}
+
 a{
     color: aliceblue;
-    padding: 3%;
+    margin: 2%;
+}
+
+.conteudo1{
+    font-size: 1.5rem;
+   
+}
+.corpo{
+    width: 350px;
+    height: 300px;
+    
+}
+
+.conteudo2{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
 }
