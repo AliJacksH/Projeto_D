@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(149, 235, 247)
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 200px;
+}
+header{
+    margin-top: 1px;
+    
+}
+
+
+#imag{
+    
+}
+#lili{
+    text-align: right;
+    margin-right: 90px;  
+    
+}
+#lili :hover{
+   color: red;
+   
+}
+#lili a{
+    margin-left:20px;
+    text-decoration:  none;
+}
+.segundo h3{
+   text-align: center;
+    margin-bottom:20px;
+}
+.segundo ol{
+    text-align: center;
+    padding:0;  
+    
+}
+.segundo li {
+    margin-bottom: 10px;
+}
+.meio{
+    margin:auto;
+    width: 100px;
+    margin-bottom: 30px;
+    margin-top:20px;
+      
+}
+footer{
+    margin-top:60px;
+    text-align: center;
+}
