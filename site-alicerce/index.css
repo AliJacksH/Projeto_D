@@ -7,6 +7,10 @@ text-decoration: none ;
 
 }
 
+body{
+   font-size: 100%;
+   background-image:linear-gradient(to right, #F00201, #F78223, #F1D700, #44DB0B, #0076FA, #6F00FF);
+}
 
 #logo-rodapé{
 width: 80px;
@@ -27,4 +31,7 @@ text-align: center;
 #separação{
 
    width: 100px;
+}
+#mulheres{
+   
 }
