@@ -1,10 +1,30 @@
+*{
+
+padding: 0%;
+box-sizing: border-box;
+text-decoration: none ;
+
+
+}
+
+
+#logo-rodapé{
+width: 80px;
+
+}
+
 #conteudo2 {
 
-   text-align: center;
+   text-align: center
 }
 
 #rodapé {
 
 text-align: center;
 
+}
+
+#separação{
+
+   width: 100px;
 }
