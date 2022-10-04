@@ -6,25 +6,73 @@ text-decoration: none ;
 
 
 }
+.cabeçalho{
+ 
+ justify-content: space-around;
+ flex-direction:row ;
+ gap: 20px;
+}
+.links{
+padding:30px ;
+justify-content: space-between;
 
-body{
+
+}
+#logo-nav{
+   padding: 30px 20px;
+   width: 15%;
+   cursor: pointer;
+}
+.conteudo-principal{
+display: flex;
+
+}
+
+
+/*body{
    font-size: 100%;
    background-image:linear-gradient(to right, #F00201, #F78223, #F1D700, #44DB0B, #0076FA, #6F00FF);
 }
-
+*/
 #logo-rodapé{
 width: 80px;
 
 }
+h1{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   color: #fff2e7;
+   
+}
 
 #conteudo2 {
 
-   text-align: center
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+}
+#botao{
+padding: 10px;
+cursor: pointer;
+background-color: #3e31ec;
+border-radius: 50px ;
+
+
+}
+.strong{
+   font-family: 'Roboto', sans-serif;
 }
 
 #rodapé {
 
 text-align: center;
+
+}
+#logo-rodapé{
+width: 80px;
+display: block;
+margin: 0 auto;
 
 }
 
@@ -33,5 +81,7 @@ text-align: center;
    width: 100px;
 }
 #mulheres{
+   margin:10px 50% ;
+ cursor: pointer;
    
 }
